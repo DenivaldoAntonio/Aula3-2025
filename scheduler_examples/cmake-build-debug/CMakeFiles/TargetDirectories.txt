@@ -1,0 +1,5 @@
+/home/denivaldo/Aula3-2025-1/scheduler_examples/cmake-build-debug/CMakeFiles/scheduler.dir
+/home/denivaldo/Aula3-2025-1/scheduler_examples/cmake-build-debug/CMakeFiles/app.dir
+/home/denivaldo/Aula3-2025-1/scheduler_examples/cmake-build-debug/CMakeFiles/app-io.dir
+/home/denivaldo/Aula3-2025-1/scheduler_examples/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/denivaldo/Aula3-2025-1/scheduler_examples/cmake-build-debug/CMakeFiles/rebuild_cache.dir
