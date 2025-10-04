@@ -13,6 +13,8 @@ pcb_t *new_pcb(pid_t pid, uint32_t sockfd, uint32_t time_ms) {
     new_task->sockfd = sockfd;
     new_task->time_ms = time_ms;
     new_task->ellapsed_time_ms = 0;
+    new_task->priority_level = 0;  // inicializa a prioridade (nível 0 = topo)
+
     return new_task;
 }
 

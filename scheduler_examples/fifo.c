@@ -42,3 +42,4 @@ void fifo_scheduler(uint32_t current_time_ms, queue_t *rq, pcb_t **cpu_task) {
         *cpu_task = dequeue_pcb(rq);   // Get next task from ready queue (dequeue from head)
     }
 }
+

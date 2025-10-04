@@ -1,9 +1,10 @@
-cmake_minimum_required(VERSION 3.25)
+cmake_minimum_required(VERSION 3.21)
 project(scheduling C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(scheduler ossim.c queue.c fifo.c)
+add_executable(scheduler ossim.c queue.c fifo.c sjf.c RR.c mlfq.c
+        sjf.h)
 
 add_executable(app app.c)
 
